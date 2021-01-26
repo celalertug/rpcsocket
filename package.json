@@ -1,0 +1,24 @@
+{
+  "name": "rpcsocket",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/celalertug/rpcsocket"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lintfix": "eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0",
+    "socket.io-client": "^3.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "mocha": "^8.2.1"
+  }
+}
