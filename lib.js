@@ -45,6 +45,7 @@ const socketConsume = (uri, channel, cb = async () => {
       });
     }
   });
+  return socket;
 };
 
 const socketRequest = (uri, channel, body,
